@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 3</title>
+</head>
+<body>
+	<!-- Задание 1-->
+
+	<!-- <script type="text/javascript">
+		var fruits = new Array("Арбуз", "Дыня", "Тыква", "Клубника","Mersedes", 34, 55, 78, true, "Джон Малкович", "Элвис Пресли");
+		console.log(fruits.length);
+
+        var changedFruits = fruits.join(" / ");
+
+        console.log(changedFruits);
+
+        fruits = fruits.concat("Киви", "Хурма","Hummer");
+        console.log(fruits);
+
+        fruits = fruits.reverse();
+        console.log (fruits);
+
+        var piece = fruits.slice(1, 7);
+        console.log (piece);
+
+        var del = fruits.splice(3, 3);
+        console.log (del);
+
+        fruits.sort();
+        console.log(fruits);
+
+        var new_length = fruits.push(111,"Audi", "Мандарин", "Брюс Уиллис");
+        console.log(fruits);
+        console.log(new_length);
+
+        var deleteElement = fruits.pop();
+        console.log(deleteElement);
+        console.log(fruits.length);
+
+        var new_length = fruits.unshift("Рамбутан","Skoda");
+        console.log(new_length);
+
+        var delete_value = fruits.shift();
+        console.log(delete_value);
+
+	</script> --> 
+
+	<!-- Задание 2-->
+
+	<!-- <script type="text/javascript">
+
+	var array = [2, 5, 6, -7, 12, 15, 0, 3, -8, 9];
+	var max = getMaxValue(array);
+	var min = getMinValue(array);
+	console.log(max);
+	console.log(min);
+ 
+	function getMaxValue(array){
+    var max = array[0]; 
+    	if (max < array[i]) max = array[i]; 
+    for (var i = 0; i < array.length; i++) { 
+    // переберем весь массив
+    // если элемент больше, чем в переменной, то присваиваем его значение переменной
+        if (max < array[i]) max = array[i]; 
+    }
+    // возвращаем максимальное значение- спросить что такое??
+    return max;
+} 
+	
+	function getMinValue(array){
+    var min = array[0];
+    for (var i = 0; i < array.length; i++) {
+        if (min > array[i]) min = array[i];
+    }
+    return min;
+}
+
+	</script> -->
+
+	<!-- Задание 3-->
+
+	<!-- <script type="text/javascript">
+		
+		var arr =  new Array ( 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
+		var min = +prompt ("Введите нижний предел");
+		var max = +prompt ("Введите верхний предел");
+		var piece = arr.slice(min, max);
+		console.log (piece);
+
+	</script> -->
+
+	<!--Задание 4-->
+
+	<!-- <script type="text/javascript">
+
+		var elem0 = +prompt ("Введите первый элемент массива");
+		var elem1 = +prompt ("Введите второй элемент массива");
+		var elem2 = +prompt ("Введите третий элемент массива");
+		var elem3 = +prompt ("Введите четвертый элемент массива");
+		var elem4 = +prompt ("Введите пятый элемент массива");
+		var elem5 = +prompt ("Введите шестой элемент массива");
+		var elem6 = +prompt ("Введите седьмой элемент массива");
+		var elem7 = +prompt ("Введите восьмой элемент массива");
+		var elem8 = +prompt ("Введите девятый элемент массива");
+		var elem9 = +prompt ("Введите последний элемент массива");
+
+		var arr = [ elem0, elem1, elem2, elem3, elem4, elem5,elem6, elem7, elem8, elem9];
+
+		arr.sort();
+		console.log(arr);
+
+	</script> -->
+
+	<!--Задание 5-->
+
+	<!-- <script type="text/javascript">
+		var arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19, "Twenty"];
+		var a = +prompt ("Введите порядковый номер с 0");
+		
+		var newArr1 = arr.slice(0,a);
+		var newArr2 = arr.slice(a);
+
+		console.log(newArr1+ ", Вставляемый элемент, " + newArr2);
+
+	</script> -->
+
+	<!--Задание 6-->
+
+	<!-- <script type="text/javascript">
+		var month = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+		document.write(month.splice(month.length-2,1));
+
+	</script>
+ -->
+
+ 	<!-- Задание 7-->
+
+ 	<script type="text/javascript">
+
+ 		var a=["Вишневый","Абрикосовый","Малиновый","Яблочный","Персиковый","Тыквенный", "Клубничный"];
+ 		var b=["Сок","Нектар","Джем","Конфитюр", "Пирог","Штрудель","Вкус"];
+ 		for (i = 0; i < a.length; i++) {
+  		document.write(a[i].concat('  ' + b[i]+'<br>'));
+   		}
+
+ 	</script>
+</body>
+</html>

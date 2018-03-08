@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>6-2</title>
+</head>
+<body>
+
+		<input type="text" id="in1">
+		<input type="text" id="in2"><button id="b1">Click here</button>
+	
+	<p id="p1"> </p>
+	<p id="p2"> </p>
+
+	<script type="text/javascript">
+		var button = document.getElementById('b1');
+		var input1 = document.getElementById('in1');
+      	var input2 = document.getElementById('in2');
+      	var p1 = document.getElementById('p1');
+      	var p2 = document.getElementById('p2');
+      		button.onclick = function(){
+      	
+      	p1.textContent= input1.value;
+      	p2.innerHTML= input2.value;
+      	
+    }
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+	</style>
+	<title>6-4</title>
+</head>
+<body>
+	<script>
+		function addition() {
+		var a = parseInt(document.getElementById('a').value);
+		var b = parseInt(document.getElementById('b').value);
+ 		if (isNaN(a)==true) a=0;
+		if (isNaN(b)==true) b=0;
+ 		var c = a + b;
+ 		document.getElementById('result').innerHTML = a + " + " + b + " = " + c;
+		}
+		</script>
+	</head>
+	<body>
+		<br>
+		<br>
+		<form>
+			<input id="a" type="text"> + <input id="b" type="text">  
+			<br>
+			<br>
+			<input type="button" value="Нажмите чтобы сложить" onclick="addition();"><br>
+		</form>
+		<br>
+		<div id="result"></div>
+	
+	</body>
+</html>
+	</script>
+</body>
+</html>

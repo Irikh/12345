@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 5</title>
+</head>
+
+	<!--Task 1
+	<script type="text/javascript">
+		function square(x, n) {
+  		var result = x;
+  		for (var i = 1; i < n; i++) {
+   		result *= x;
+  		}
+  		return result;
+		}
+
+		var x = +prompt("Введите число", '');
+		var n = +prompt("Введите желаемую степень", '');
+
+		if (n <= 1) {
+ 		 alert('Степень ' + n +
+    	'не поддерживается, введите целую степень, большую 1'
+  		);
+		} else {
+  		alert( square(x, n) );
+		}
+	</script> 
+	-->
+
+	<!-- Task 2
+	<script type="text/javascript">
+		function fib(n) {
+	    var a = 1,
+		    b = 1;
+		for (var i = 3; i <= n; i++) {
+		    var c = a + b;
+		    a = b;
+		    b = c;
+		}
+		  	return b;
+		}
+		var n =+prompt('Введите порядковый номер числа Фиббоначи');
+		if (n <= 1) {
+ 		 alert(' Число должно быть больше 1'
+  		);
+		} else {
+  		alert(fib(n));
+		}
+	</script> -->
+
+	<!-- Task 3
+	<script type="text/javascript">
+		var arr = ['Понедельник', 'Втоник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресение'];
+		var num = +prompt('Введите порядковый номер дня');
+		if (num >=8){
+			alert ('В неделе только 7 дней, Ишак!');
+		}
+		else if (num <= 0) {
+			alert ('Только положительные числа!');
+		}
+		else{
+		function day(num)
+		{
+		return arr[num-1];
+		}
+		alert(day(num));
+		}	
+	</script> -->
+	
+	<!--Task 4-->
+<body onload="setTimeout(changeBgc, 1000)">	
+
+	<p id="1" style="background-color: blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p id="2" style="background-color: pink">Chase red laser dot give me some of your food give me some of your food give me some of your food meh, i don't want it purr stare at guinea pigs and sit on the laptop and pushes butt to face toilet paper attack claws fluff everywhere meow miao french ciao litterbox. Cough. Pee in human's bed until he cleans the litter box throw down all the stuff in the kitchen for my slave human didn't give me any food so i pooped on the floor stare at guinea pigs so purr. Inspect anything brought into the house climb leg scratch leg; meow for can opener to feed me yet meow loudly just to annoy owners plan steps for world domination thug cat but white cat sleeps on a black shirt. Run in circles this cat happen now, it was too purr-fect!!! or crash against wall but walk away like nothing happened i like big cats and i can not lie the dog smells bad, chew iPad power cord, meow to be let in. Sleep licks your face but disappear for four days and return home with an expensive injury; bite the vet. </p> 
+	
+	<script>
+
+	function changeBgc(){
+	document.getElementById("1").style.backgroundColor="red";
+	document.getElementById("2").style.backgroundColor="red";
+	}
+	</script>
+
+
+
+	<!-- task 5
+	<script type="text/javascript">
+		function checkAge(age) {
+  		if (age >= 16) {
+    	return true;
+  		} else {
+    	return false;
+  		}
+		}
+		var age = prompt('Ваш возраст?');
+		if (checkAge(age)) {
+		  alert( 'Добро пожаловать' );
+		} else {
+		  alert( 'ты ещё молод, мелкий гавнюк' );
+		}
+	</script> -->
+
+	<!-- Task 6
+	<script type="text/javascript">
+		function length_of_array(){
+	   var length=arguments.length;
+	   return length;
+	  }
+	  var res=length_of_array(33, 33, 0, 56, 78, 43, 3221, 777, -650, -943,655);
+	  alert(res);
+	</script> -->
+
+
+</body>
+
+</html>

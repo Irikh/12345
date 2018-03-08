@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>6-3</title>
+</head>
+<body>
+	
+<h2>Заголовок, не поменяется.</h2>
+<p>Абзац, поменяется.</p>
+<p>Абзац, поменяется.</p>
+<p>Абзац, поменяется.</p>
+
+<input type="submit" onclick="func()">
+
+<script type="text/javascript">
+function func() {
+	var elems = document.getElementsByTagName('p');
+	for (var i = 0; i < elems.length; i++) {
+		elems[i].innerHTML = i+1;
+	}
+}
+
+</script>
+
+</body>
+</html>
+
+
